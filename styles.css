@@ -1,0 +1,28 @@
+body {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.thumbnailUrl {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.preview {
+    width: auto;
+    text-align: center;
+}
+
+
+
